@@ -11,7 +11,7 @@ country_code = "US"
 authorization = "BQDUgIu5Hv25stw9QwhMDdyJjtbkwGsB7sISoy21LqxAgzcP0wICseF82Jmutmodjzg1O96WRte8D37Dykc_-IlGUapbBMQlkIFvHQ2NKjdktstYcVYvD1BFUIER3gBQg-1-XJQu7-WzV2UG7PVhJ28t7-O028EOVyJuCXmkAWCQKzHUjY_Fnap2Nj9r470"
 user_id = "l93eqsyydqclkeqdsfrjw8i05"
 # this playlist id is for
-playlist_id0 = '4NneHeUmPfkNQIj3a7JyPM'
+playlist_id0 = '37i9dQZEVXbLp5XoPON0wI'
 
 
 # track0_id = "2ooIqOf4X2uz4mMptXCtie"
@@ -212,7 +212,7 @@ def get_playlist_tracks(playlist_id):
     playlist_df = pd.DataFrame(playlist_tracks_info_list0,
                                columns=['artist_name', 'artist_id', 'track_name', 'track_id'])
 
-    playlist_df.to_csv('my_playlist_v2.csv', header=True, index=False)
+    playlist_df.to_csv('my_playlist_v4.csv', header=True, index=False)
 
     return playlist_df
     # return data_temp
