@@ -8,10 +8,10 @@ country_code = "US"
 # get a fresh token, it expires in a short time.
 # https://developer.spotify.com/console/post-playlists/
 # get token
-authorization = "BQDUgIu5Hv25stw9QwhMDdyJjtbkwGsB7sISoy21LqxAgzcP0wICseF82Jmutmodjzg1O96WRte8D37Dykc_-IlGUapbBMQlkIFvHQ2NKjdktstYcVYvD1BFUIER3gBQg-1-XJQu7-WzV2UG7PVhJ28t7-O028EOVyJuCXmkAWCQKzHUjY_Fnap2Nj9r470"
-user_id = "l93eqsyydqclkeqdsfrjw8i05"
+authorization = "BQBS0uKPMmomURxIWjlp59wnsGLdZ7AE6H-TjihnW1FtRvRLfm548fQihbmYWD_BixhfuVAm8g1XLkt8qEX9uOaE2jcnoJpjx1cKVEmm7GjjcarIoXtYOawl0UfaHxnGG_eF05ilNELE8US9_T-mXMKZHGrcoan4YoeFUAl0k9m8eGct2EXS7iAJGJH2UDs87Hf3dJ7oUA5h1wK2PB8"
+user_id = "22ku6efy73kw6pajgbuynw6xy"
 # this playlist id is for
-playlist_id0 = '37i9dQZEVXbLp5XoPON0wI'
+playlist_id0 = '1CKQrgQXIM53Qvw5TaOQmt'
 
 
 # track0_id = "2ooIqOf4X2uz4mMptXCtie"
@@ -212,7 +212,7 @@ def get_playlist_tracks(playlist_id):
     playlist_df = pd.DataFrame(playlist_tracks_info_list0,
                                columns=['artist_name', 'artist_id', 'track_name', 'track_id'])
 
-    playlist_df.to_csv('my_playlist_v4.csv', header=True, index=False)
+    playlist_df.to_csv('my_playlist_v6.csv', header=True, index=False)
 
     return playlist_df
     # return data_temp

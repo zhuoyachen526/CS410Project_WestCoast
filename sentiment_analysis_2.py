@@ -6,7 +6,7 @@ import time
 
 analyser = SentimentIntensityAnalyzer()
 
-playlist_df = pd.read_csv("my_playlist_v4.csv")
+playlist_df = pd.read_csv("my_playlist_v6.csv")
 
 
 def get_lyric(artist_name, track_name):
@@ -58,7 +58,7 @@ for track0 in playlist_df[['artist_name', 'track_name']].values:
 playlist_df['lyric'] = lyric_list
 playlist_df['sentiment'] = sentiment_list
 playlist_df['sentiment_score'] = sentiment_score_list
-playlist_df.to_csv('my_playlist_sentiment_v4.csv', header=True, index=False)
+playlist_df.to_csv('my_playlist_sentiment_v6.csv', header=True, index=False)
 # print lyric of an song
 song_index = 3
 print("the "+str(song_index+1)+"th song in my list",
