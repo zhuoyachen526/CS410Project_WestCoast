@@ -212,7 +212,7 @@ def get_playlist_tracks(playlist_id):
     playlist_df = pd.DataFrame(playlist_tracks_info_list0,
                                columns=['artist_name', 'artist_id', 'track_name', 'track_id'])
 
-    playlist_df.to_csv('my_playlist_v6.csv', header=True, index=False)
+    playlist_df.to_csv('my_playlist_clean.csv', header=True, index=False)
 
     return playlist_df
     # return data_temp
