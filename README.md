@@ -1,10 +1,15 @@
 # CS-410 Course Project
 # Spotify Sentiment Analsys (Recommender and models comparison)
 
+Software Requirement:
+- VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
+- jupyter notebook 
+
+
 1. find your user id
 go to the spotify profile webpage and check the webpage address. https://open.spotify.com/user/****
 
-**** is your spotify user id ****
+**** is your spotify user id 
 
 2. get a fresh OAuth Token
 from an spotify console. e.g. https://developer.spotify.com/console/get-playlists/
