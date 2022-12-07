@@ -5,6 +5,11 @@ Software Requirement:
 - VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
 - jupyter notebook 
 
+Application components (Part 1 / 2 / 3):
+- Songs and lyrics extraction
+- Song recommender
+- Sentiment analysis models
+
 **User guide**
 1. Open the ipynb file with VSCode or run "jupyter notebook" at the project folder (part 1 / 2 / 3)
 2. Install the required libraries and run the cells
