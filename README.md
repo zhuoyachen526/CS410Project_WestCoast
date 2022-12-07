@@ -5,6 +5,10 @@ Software Requirement:
 - VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
 - jupyter notebook 
 
+**User guide**
+1. Open the ipynb file with VSCode or run "jupyter notebook" at the project folder (part 1 / 2 / 3)
+2. Install the required libraries and run the cells
+
 
 1. find your user id
 go to the spotify profile webpage and check the webpage address. https://open.spotify.com/user/****
