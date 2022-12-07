@@ -45,9 +45,6 @@ def get_artist_from_trackid(trackid):
     data_temp = json.loads(response.text)
     return data_temp['name']
 
-#artist1 = get_artist_from_trackid(track0_id)
-# print(artist1)
-
 
 def get_track_from_trackid(trackid):
     url = ''.join(["https://api.spotify.com/v1/tracks/", trackid])
@@ -85,12 +82,6 @@ def get_related_artists_from_trackid(trackid):
     return artist_list, artist_id_list
 
 
-#artists1,artistid1 = get_related_artists_from_trackid(track0_id)
-# print(artists1)
-# print(artistid1)
-# print(len(artists1))
-# print(len(artistid1))
-
 def create_a_playlist(new_playlist_name):
     url = ''.join(["https://api.spotify.com/v1/users/", user_id, "/playlists"])
 
@@ -108,9 +99,6 @@ def create_a_playlist(new_playlist_name):
     data_temp = json.loads(response.text)
     new_playlist_id = data_temp['id']
     return new_playlist_id
-
-#new_playlist_id = create_a_playlist("CS410ProjectList")
-# print(new_playlist_id)
 
 
 def get_artist_top_tracks_from_artist_id(artist_id):
@@ -134,13 +122,6 @@ def get_artist_top_tracks_from_artist_id(artist_id):
         track_id_list.append(value['id'])
     return track_list, track_id_list
 
-#track_list1 = get_artist_top_tracks_from_artist_id(artist0_id0)[0]
-#track_id_list1 = get_artist_top_tracks_from_artist_id(artist0_id0)[1]
-# print(track_list1)
-# print(track_id_list1)
-# print(len(track_list1))
-# print(len(track_id_list1))
-
 
 def add_tracks_to_playlist(track_id_list, playlist_id):
     url = ''.join(["https://api.spotify.com/v1/users/",
@@ -162,9 +143,7 @@ def add_tracks_to_playlist(track_id_list, playlist_id):
     response = requests.request("POST", url, headers=headers, data=payload)
     print(response.text)
 
-# add_tracks_to_playlist(track_id_list1,playlist_id0)
-
-
+# pass json to lists
 def json_read_to_list(info_temp):
     playlist_tracks_info_list = []
     print("length:", len(info_temp))
@@ -176,7 +155,7 @@ def json_read_to_list(info_temp):
         playlist_tracks_info_list.append(temp0)
     return playlist_tracks_info_list
 
-
+# get playlist tracks from platlist id
 def get_playlist_tracks(playlist_id):
     url = ''.join(["https://api.spotify.com/v1/playlists/",
                    playlist_id,
@@ -215,18 +194,6 @@ def get_playlist_tracks(playlist_id):
     playlist_df.to_csv('my_playlist_clean.csv', header=True, index=False)
 
     return playlist_df
-    # return data_temp
-
 
 playlist_tracks1 = get_playlist_tracks(playlist_id0)
 
-
-# print(playlist_tracks1.shape)
-# print(playlist_tracks1['track_name'])
-# print(playlist_tracks1.head(5))
-
-
-# artist_id0 = "5rSXSAkZ67PYJSvpUpkOr7"# backstreet boys
-# track1_id = "3BsaRV5QIulYz2lV9WWa8T" #Show Me the Meaning of Being Lonely
-# print(get_artist_from_artistid(artist_id0))
-# print(get_track_from_trackid(track1_id))

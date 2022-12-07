@@ -8,7 +8,7 @@ analyser = SentimentIntensityAnalyzer()
 
 playlist_df = pd.read_csv("my_playlist_clean.csv")
 
-
+#get lyrics from musixmatch
 def get_lyric(artist_name, track_name):
     # musixmatch api base url
     base_url = "https://api.musixmatch.com/ws/1.1/"
@@ -58,6 +58,7 @@ for track0 in playlist_df[['artist_name', 'track_name']].values:
 playlist_df['lyric'] = lyric_list
 playlist_df['sentiment'] = sentiment_list
 playlist_df['sentiment_score'] = sentiment_score_list
+# output sentiment scores to a csv
 playlist_df.to_csv('my_playlist_sentiment_clean.csv', header=True, index=False)
 # print lyric of an song
 song_index = 3
