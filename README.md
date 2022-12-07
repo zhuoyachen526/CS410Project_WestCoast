@@ -4,7 +4,7 @@
 1. find your user id
 go to the spotify profile webpage and check the webpage address. https://open.spotify.com/user/****
 
-**** is your spotify user id
+**** is your spotify user id ****
 
 2. get a fresh OAuth Token
 from an spotify console. e.g. https://developer.spotify.com/console/get-playlists/
