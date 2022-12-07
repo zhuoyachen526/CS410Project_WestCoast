@@ -8,10 +8,10 @@ Software Requirement:
 **User guide**
 1. Open the ipynb file with VSCode or run "jupyter notebook" at the project folder (part 1 / 2 / 3)
 2. Install the required libraries and run the cells
-3. If you would like to test with your own playlist, please follow the *Use Your Own Playlit* instruction
+3. If you would like to test with your own playlist, please follow the *Use Your Own Playlist* instruction
 
 
-**Use Your Own Playlit**
+**Use Your Own Playlist**
 1. find your user id
 go to the spotify profile webpage and check the webpage address. https://open.spotify.com/user/****
 
