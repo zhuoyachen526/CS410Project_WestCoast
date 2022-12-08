@@ -8,11 +8,12 @@ https://mediaspace.illinois.edu/media/t/1_wrzhzr7b
 # Presentation Slides
 please check the file "Presentation_West_Coast_Final.pptx".
 
-Software Requirement:
-- VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
-- jupyter notebook 
+# Codes
+  Software Requirement:
+  - VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
+  - jupyter notebook 
 
-Application components (Part 1 / 2 / 3):
+Check the subfolders (Part 1 / 2 / 3):
 - Songs and lyrics extraction
 - Song recommender
 - Sentiment analysis models
