@@ -22,10 +22,6 @@ please check the file "Presentation_West_Coast_Final.pptx".
   **User guide**
   - please check the Code Documentation Below.
 
-
-**Use Your Own Playlist**
-
-
 # Code Documentation
 
 **Part 1: Spotify Music Extraction**
