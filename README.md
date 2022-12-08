@@ -1,7 +1,7 @@
 # CS-410 Course Project
 # Spotify Sentiment Analsys (Recommender and models comparison)
 
-Link to presentation:
+Link to presentation (Access with school email):
 https://mediaspace.illinois.edu/media/t/1_wrzhzr7b
 
 Software Requirement:
