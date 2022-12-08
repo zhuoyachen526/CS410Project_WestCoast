@@ -20,6 +20,11 @@ Application components (Part 1 / 2 / 3):
 
 
 **Use Your Own Playlist**
+
+
+# Code Documentation
+
+**Part 1: Spotify Music Extraction**
 1. find your user id
 go to the spotify profile webpage and check the webpage address. https://open.spotify.com/user/****
 
@@ -35,11 +40,6 @@ try "sentiment_analysis_2.py" and export a table as "my_playlist_sentiment.csv"
 
 5. song recommender
 import the "my_playlist_sentiment.csv" into the same folder of Sentiments_app.ipynb and run the cell
-
-# Code Documentation
-
-**Part 1: Spotify Music Extraction**
-
 
 **Part 2: Song Recommender**
 
