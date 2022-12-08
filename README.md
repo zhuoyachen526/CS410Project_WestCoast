@@ -9,19 +9,18 @@ https://mediaspace.illinois.edu/media/t/1_wrzhzr7b
 please check the file "Presentation_West_Coast_Final.pptx".
 
 # Codes
+
+  Check the subfolders (Part 1 / 2 / 3):
+  - part1.spotifymusic_extraction
+  - part2.song_recommender
+  - part3.multi_models
+  
   Software Requirement:
   - VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
   - jupyter notebook 
 
-Check the subfolders (Part 1 / 2 / 3):
-- Songs and lyrics extraction
-- Song recommender
-- Sentiment analysis models
-
-**User guide**
-1. Open the ipynb file with VSCode or run "jupyter notebook" at the project folder (part 1 / 2 / 3)
-2. Install the required libraries and run the cells
-3. If you would like to test with your own playlist, please follow the *Use Your Own Playlist* instruction
+  **User guide**
+  - please check the Code Documentation Below.
 
 
 **Use Your Own Playlist**
