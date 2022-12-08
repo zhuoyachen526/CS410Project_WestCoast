@@ -36,7 +36,7 @@ try "sentiment_analysis_2.py" and export a table as "my_playlist_sentiment.csv"
 5. song recommender
 import the "my_playlist_sentiment.csv" into the same folder of Sentiments_app.ipynb and run the cell
 
-#Code Documentation#
+# Code Documentation
 
 ###Part 1: Spotify Music Extraction###
 
