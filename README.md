@@ -1,6 +1,9 @@
 # CS-410 Course Project
 # Spotify Sentiment Analsys (Recommender and models comparison)
 
+Link to presentation:
+https://mediaspace.illinois.edu/media/t/1_wrzhzr7b
+
 Software Requirement:
 - VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
 - jupyter notebook 
