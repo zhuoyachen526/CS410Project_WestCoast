@@ -29,6 +29,11 @@ please check the file "Presentation_West_Coast_Final.pptx".
 # Code Documentation
 
 **Part 1: Spotify Music Extraction**
+
+*Code 1: spotify_api.py*
+
+Function: This code is to 1) extract list of songs and artists' names into a csv file by using Spotify account token to call the Spotify develper tool API, 2) to call MusicMatch api to pull lyrics of each song and add them to the list. The logic is as follows:
+
 1. find your user id
 go to the spotify profile webpage and check the webpage address. https://open.spotify.com/user/****
 
@@ -39,11 +44,13 @@ from an spotify console. e.g. https://developer.spotify.com/console/get-playlist
 
 3. edit the personal info in the "spotify_api.py" and export a playlist as "my_playlist.csv". 
 
+*Code 2: sentiment_analysis.py*
+
+Function: This code is to use the VADER (Valence Aware Dictionary and sEntiment Reasoner) library to conduct sentiment analysis and then add them to the list of songs info which we created from Code 1.
+
 4. sentiment analysis
 try "sentiment_analysis_2.py" and export a table as "my_playlist_sentiment.csv"
 
-5. song recommender
-import the "my_playlist_sentiment.csv" into the same folder of Sentiments_app.ipynb and run the cell
 
 **Part 2: Song Recommender**
 
