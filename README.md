@@ -45,7 +45,7 @@ from an spotify console. e.g. https://developer.spotify.com/console/get-playlist
 Function: This code is to use the VADER (Valence Aware Dictionary and sEntiment Reasoner) library to conduct sentiment analysis and then add them to the list of songs info which we created from Code 1.
 
 4. sentiment analysis
-try "sentiment_analysis_2.py" and export a table as "my_playlist_sentiment.csv"
+try "sentiment_analysis.py" and export a table as "my_playlist_sentiment.csv"
 
 
 **Part 2: Song Recommender**
