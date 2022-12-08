@@ -36,4 +36,27 @@ try "sentiment_analysis_2.py" and export a table as "my_playlist_sentiment.csv"
 5. song recommender
 import the "my_playlist_sentiment.csv" into the same folder of Sentiments_app.ipynb and run the cell
 
+---#Code Documentation#---
+
+###Part 1: Spotify Music Extraction###
+
+
+###Part 2: Song Recommender###
+
+*Code 1: Sentiments_app.ipynb*
+
+Function: This code is for users to utilize the song recommendation function based on the sentiment analysis result from the user’s playlist(s). The data source is from the extraction of songs and lyrics, and the sentiment analysis result from Part 1. The first cell of the program is to read the csv file and to drop songs with duplicated name. The second cell is the core logic of the program. When the user execute the third cell to call the sentiment function, the program will ask the user to enter the name of the artist. If found, it will ask the user to enter the song name. If not found, the program will stop executing and the user can simple work re-run the cell. When the user enters the song name and it is found, it would generate two lists: top 20 most similar songs based on the sentiment scores and top 20 least similar songs based on the sentiment scores as well. To help the user to better visualize the score different in similarity and dissimilarity, the program also use matplotlibrary to display the charts. 
+
+###Part 3. Compare different pre-trained sentiment analysis models###
+
+*Code 1: HaggingFace_Models.ipynb*
+
+Function: This code is to choose a proper pre-trained sentiment analysis model from the top-listed models in the Hugging Face, an AI community. An easy test set is used and expected to generate a sentiment label “positive”, “neutral” or “negative’. Only the model that make the full accurate prediction will be selected to predict our playlist with over 400 songs. 
+Implementation: The code doesn’t require input file. It can be practiced in Jupyter Notebook. 
+
+*Code 2: sentiment_analysis_eval_multi_models_comparison_final.py*
+
+Function: This code will predict the sentiment labels of lyrics from a playlist with over 400 songs using three pre-trained sentiment analysis models. They are “Vader”, “TextBlob”, and “Hugging Face: Bertweet”. Prediction inconsistency among the three models will be tabulated and visualized in plots. The lyrics are also manually evaluated. Model prediction will be compared with the manual evaluations to calculate the model accuracy. 
+Implementation: The code can be run on any python IDE. Prerequisite python libraries include ”VaderSentiment", "textblob", "happytransformer", "emoji", and other necessary libraries. The code will take “my_playlist_4_multi_model.csv” as an input for the 1st part (sentiment prediction) and take “playlist_sentiment_eval.xlsx” as an input for the 2nd part (model accuracy).
+
 
