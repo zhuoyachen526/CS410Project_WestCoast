@@ -1,8 +1,12 @@
 # CS-410 Course Project
 # Spotify Sentiment Analysis (Recommender and models comparison)
 
+# Presentation Video
 **Link to presentation (Access with school email):**
 https://mediaspace.illinois.edu/media/t/1_wrzhzr7b
+
+# Presentation Slides
+please check the file "Presentation_West_Coast_Final.pptx".
 
 Software Requirement:
 - VSCode or JetBrains (We highly recommend VSCode since it can execute ipynb like as you run it via jupyter notebook command)
