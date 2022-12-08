@@ -1,14 +1,14 @@
 # CS-410 Course Project
 # Spotify Sentiment Analysis (Recommender and models comparison)
 
-# Presentation Video
+## Presentation Video
 **Link to presentation (Access with school email):**
 https://mediaspace.illinois.edu/media/t/1_wrzhzr7b
 
-# Presentation Slides
+## Presentation Slides
 please check the file "Presentation_West_Coast_Final.pptx".
 
-# Codes
+## Codes
 
   Check the subfolders (Part 1 / 2 / 3):
   - part1.spotifymusic_extraction
@@ -22,7 +22,7 @@ please check the file "Presentation_West_Coast_Final.pptx".
   **User guide**
   - please check the Code Documentation Below.
 
-# Code Documentation
+## Code Documentation
 
 **Part 1: Spotify Music Extraction**
 
