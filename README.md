@@ -38,16 +38,16 @@ import the "my_playlist_sentiment.csv" into the same folder of Sentiments_app.ip
 
 # Code Documentation
 
-###Part 1: Spotify Music Extraction###
+**Part 1: Spotify Music Extraction**
 
 
-###Part 2: Song Recommender###
+**Part 2: Song Recommender**
 
 *Code 1: Sentiments_app.ipynb*
 
 Function: This code is for users to utilize the song recommendation function based on the sentiment analysis result from the user’s playlist(s). The data source is from the extraction of songs and lyrics, and the sentiment analysis result from Part 1. The first cell of the program is to read the csv file and to drop songs with duplicated name. The second cell is the core logic of the program. When the user execute the third cell to call the sentiment function, the program will ask the user to enter the name of the artist. If found, it will ask the user to enter the song name. If not found, the program will stop executing and the user can simple work re-run the cell. When the user enters the song name and it is found, it would generate two lists: top 20 most similar songs based on the sentiment scores and top 20 least similar songs based on the sentiment scores as well. To help the user to better visualize the score different in similarity and dissimilarity, the program also use matplotlibrary to display the charts. 
 
-###Part 3. Compare different pre-trained sentiment analysis models###
+**Part 3. Compare different pre-trained sentiment analysis models**
 
 *Code 1: HaggingFace_Models.ipynb*
 
